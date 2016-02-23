@@ -1,7 +1,3 @@
-# react-components-parameter
-
-`use ReactJS ES6 to build parameter`
-
 #react-Parameter
 
 ##Demo
@@ -58,6 +54,6 @@ render(<Index/>,document.getElementById('root'));
 
 Name | Description | Type | Required | Default value
 -----|-------------|------|----------|--------------
-parameters | parameters | json | |  { appid:{ value:'1',comment:0} }
-onEditItem | onEditItem | func | |  onEditParameter(name, value) 
-onInsertParameter | onInsertParameter | func | | onInsertParameter(name, value)
+parameters | parameters | json | yes |  { appid:{ value:'1',comment:0} }
+onEditItem | onEditItem | func | yes |  onEditParameter(name, value) 
+onInsertParameter | onInsertParameter | func | yes | onInsertParameter(name, value)
